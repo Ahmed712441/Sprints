@@ -65,6 +65,9 @@ public abstract class Car {
 		this.price = price;
 	}
 	
+	public String getFuel() {
+		return "the car has no fuel"; 
+	}
 	
 	
 	

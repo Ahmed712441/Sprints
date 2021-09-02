@@ -63,7 +63,9 @@ public class BMW extends Car{
 		return owner_name;
 	}
 
-
+	public String getFuel() {
+		return "percentage : "+ fuelpercentage + " % type: " +fueltype; 
+	}
 
 	public String getMotor() {
 		return motor;
